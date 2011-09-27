@@ -1,0 +1,17 @@
+<h1>Pages#home</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+<p>Hello</p>
+<p><%= Time.now.min %></p>
+<p>TIME IS UP</p>
+<br/>
+<p><%= @links.size %></p>
+<p><%= @title.size %></p>
+<p>
+<% p=0 %>
+<% @title.size.times	 do %> 
+<%= @links[p]%>
+<br/>
+<%  p=p+1%>
+<% end %>
+</p>
+
